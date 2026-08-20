@@ -151,7 +151,7 @@ function Landing() {
               alt="Pneus agrícolas e câmaras de ar empilhados em depósito industrial"
               width={1280}
               height={1280}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover object-top"
             />
             <div
               className="absolute inset-0"
