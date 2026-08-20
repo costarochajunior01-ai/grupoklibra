@@ -32,13 +32,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Distribuição B2B de câmaras de ar, pneus e materiais de reparação para revendas, borracharias e oficinas da Bahia e do Piauí. Reposição ágil para não perder venda.",
+          "Distribuição B2B de câmaras de ar, pneus e materiais de reparação para revendas, borracharias e oficinas da Bahia. Reposição ágil para não perder venda.",
       },
       { property: "og:title", content: "K-Libra | Distribuição B2B de Pneus, Câmaras e Reparação" },
       {
         property: "og:description",
         content:
-          "Parceira de revendas e borracharias na Bahia e no Piauí: estoque, reposição ágil e linha completa de reparação.",
+          "Parceira de revendas e borracharias na Bahia: estoque, reposição ágil e linha completa de reparação.",
       },
     ],
   }),
@@ -124,7 +124,7 @@ const FAQ = [
   },
   {
     q: "Quais regiões são atendidas?",
-    a: "Bahia e Piauí, conforme disponibilidade logística e comercial.",
+    a: "Bahia, conforme disponibilidade logística e comercial.",
   },
   {
     q: "Quais produtos vocês distribuem?",
@@ -162,7 +162,7 @@ function Landing() {
           <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-12 md:px-8 lg:grid-cols-2 lg:py-28">
             <div className="reveal max-w-xl">
               <p className="inline-flex items-center gap-2 border border-primary/50 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
-                Distribuição B2B para Bahia e Piauí
+                DISTRIBUIÇÃO B2B PARA TODO O ESTADO DA BAHIA.
               </p>
               <h1 className="mt-6 text-4xl leading-[0.95] sm:text-5xl lg:text-6xl">
                 Estoque que <span className="heat-text">protege sua margem.</span>
@@ -369,7 +369,7 @@ function Landing() {
                 Conte um pouco sobre sua operação e nossa equipe entrará em contato.
               </p>
               <p className="mt-6 text-sm text-muted-foreground">
-                Atendimento exclusivo para revendas, borracharias e oficinas em {COMPANY.regions}.
+                Atendimento exclusivo para revendas, borracharias e oficinas no estado da Bahia.
               </p>
             </div>
             <LeadForm />
@@ -423,10 +423,10 @@ function Footer() {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 md:grid-cols-3 md:px-8">
         <div>
-          <p className="font-display text-2xl">K-Libra</p>
+          <p className="font-display text-2xl">K-LIBRA</p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
             Distribuição B2B de câmaras de ar, pneus e materiais de reparação para revendas,
-            borracharias e oficinas da {COMPANY.regions}.
+            borracharias e oficinas da Bahia.
           </p>
         </div>
         <nav aria-label="Rodapé" className="flex flex-col gap-2 text-sm text-muted-foreground">
@@ -453,7 +453,7 @@ function Footer() {
             <MessageCircle className="h-4 w-4" aria-hidden />
             WhatsApp comercial
           </Cta>
-          <p className="mt-4 text-sm text-muted-foreground">Atuação: {COMPANY.regions}</p>
+          <p className="mt-4 text-sm text-muted-foreground">Atuação: Estado da Bahia.</p>
         </div>
       </div>
       <div className="border-t border-border py-5 text-center text-xs text-muted-foreground">

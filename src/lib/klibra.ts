@@ -8,7 +8,7 @@ export const WHATSAPP_NUMBER = "[INSERIR_NUMERO_WHATSAPP]";
 export const COMPANY = {
   name: "K-Libra Artefatos de Borracha",
   short: "K-Libra",
-  regions: "Bahia e Piauí",
+  regions: "Bahia",
   year: 2026,
 };
 
