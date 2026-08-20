@@ -14,7 +14,7 @@ import {
   Wrench,
 } from "lucide-react";
 
-import heroImg from "@/assets/hero-tires.jpg";
+import heroImg from "@/assets/hero-tires.jpg.asset.json";
 import agricolaImg from "@/assets/line-agricola.jpg";
 import reparacaoImg from "@/assets/line-reparacao.jpg";
 import motosImg from "@/assets/line-motos.jpg";
