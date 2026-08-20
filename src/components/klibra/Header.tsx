@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
-import kMark from "@/assets/k-mark.png";
+import kMarkAsset from "@/assets/k-mark.png.asset.json";
+const kMark = kMarkAsset.url;
 import { Cta } from "./ui";
 import { openWhatsApp } from "@/lib/klibra";
 
