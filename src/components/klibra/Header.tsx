@@ -30,14 +30,8 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:h-20 md:px-8">
-        <a href="#topo" className="flex items-center gap-3" aria-label="K-Libra — início">
-          <img src={kMark} alt="" width={40} height={40} className="h-9 w-9" />
-          <span className="font-display text-lg leading-none tracking-tight md:text-xl">
-            K-Libra
-            <span className="mt-1 block font-sans text-[9px] font-medium not-italic uppercase tracking-[0.25em] text-muted-foreground">
-              Artefatos de Borracha
-            </span>
-          </span>
+        <a href="#topo" className="flex items-center" aria-label="K-Libra — início">
+          <img src={kLogo} alt="K-Libra" className="h-9 w-auto md:h-10" />
         </a>
 
         <nav aria-label="Principal" className="hidden items-center gap-8 lg:flex">
