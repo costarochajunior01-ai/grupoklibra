@@ -144,7 +144,7 @@ function Landing() {
 
       <main>
         {/* HERO */}
-        <section className="relative overflow-hidden pt-24 md:pt-20">
+        <section className="relative overflow-hidden pt-24 lg:pt-7">
           <div className="absolute inset-y-0 right-0 hidden w-[52%] lg:block">
             <img
               src={heroImg}
@@ -160,20 +160,20 @@ function Landing() {
             />
           </div>
 
-          <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-12 md:px-8 lg:grid-cols-2 lg:py-28">
+          <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-10 md:px-8 lg:grid-cols-2 lg:py-10">
             <div className="reveal max-w-xl">
               <p className="inline-flex items-center gap-2 border border-primary/50 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-primary">
                 DISTRIBUIÇÃO B2B PARA TODO O ESTADO DA BAHIA.
               </p>
-              <h1 className="mt-6 text-4xl leading-[0.95] sm:text-5xl lg:text-6xl">
+              <h1 className="mt-5 text-4xl leading-[0.95] sm:text-5xl lg:mt-6 lg:text-[3.5rem]">
                 Estoque que <span className="heat-text">protege sua margem.</span>
               </h1>
-              <p className="mt-5 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg">
+              <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg lg:mt-5">
                 Câmaras de ar, pneus e materiais de reparação para revendas e borracharias que não
                 podem perder venda por falta de produto.
               </p>
 
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-6 flex flex-col gap-3 sm:flex-row lg:mt-7">
                 <Cta
                   size="lg"
                   onClick={() =>
@@ -198,7 +198,7 @@ function Landing() {
                 </Cta>
               </div>
 
-              <ul className="mt-10 grid gap-3 sm:grid-cols-3">
+              <ul className="mt-7 grid gap-3 sm:grid-cols-3 lg:mt-8">
                 {["Atendimento B2B", "Reposição ágil", "Marcas reconhecidas"].map((s) => (
                   <li
                     key={s}
