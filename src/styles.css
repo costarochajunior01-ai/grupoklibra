@@ -24,8 +24,8 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --radius-2xl: calc(var(--radius) + 8px);
-  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Saira", "Montserrat", sans-serif;
+  --font-sans: "Mulish", "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Mulish", "Saira", sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -119,7 +119,7 @@
   h4,
   .font-display {
     font-family: var(--font-display);
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     font-style: italic;
