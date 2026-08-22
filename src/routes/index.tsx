@@ -148,7 +148,8 @@ function Landing() {
                 DISTRIBUIÇÃO B2B PARA TODO O ESTADO DA BAHIA.
               </p>
               <h1 className="mt-5 text-4xl leading-[1.02] sm:text-5xl lg:mt-6 lg:text-[3.5rem]">
-                Estoque que <span className="text-primary">protege sua margem.</span>
+                ESTOQUE, MARGEM E<br />
+                <span className="text-primary">CONFIANÇA PARA SUA REVENDA.</span>
               </h1>
               <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground md:text-lg lg:mt-5">
                 Câmaras de ar, pneus e materiais de reparação para revendas e borracharias que não
