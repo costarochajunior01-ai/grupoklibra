@@ -24,7 +24,7 @@ const EMPTY: Fields = {
 };
 
 const NEGOCIOS = ["Revenda", "Borracharia", "Oficina", "Outro"];
-const INTERESSES = ["Agrícola/pesada", "Reparação", "Motos", "Catálogo completo"];
+const INTERESSES = ["Linha agrícola e pesada", "Reparação", "Motos", "Catálogo completo"];
 
 function validate(values: Fields) {
   const errors: Partial<Record<keyof Fields, string>> = {};
