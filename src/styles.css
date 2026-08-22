@@ -24,8 +24,9 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --radius-2xl: calc(var(--radius) + 8px);
-  --font-sans: "Mulish", "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Mulish", "Saira", sans-serif;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Uni Neue", "Mulish", "Montserrat", sans-serif;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -167,3 +168,7 @@
   }
 }
 
+
+@utility font-brand {
+  font-family: var(--font-display);
+}

@@ -24,7 +24,7 @@ const EMPTY: Fields = {
 };
 
 const NEGOCIOS = ["Revenda", "Borracharia", "Oficina", "Outro"];
-const INTERESSES = ["Agrícola/pesada", "Reparação", "Motos", "Catálogo completo"];
+const INTERESSES = ["Linha agrícola e pesada", "Reparação", "Motos", "Catálogo completo"];
 
 function validate(values: Fields) {
   const errors: Partial<Record<keyof Fields, string>> = {};
@@ -60,10 +60,15 @@ export function LeadForm() {
       trackEvent("form_error", { fields: Object.keys(found).join(",") });
       return;
     }
+    trackEvent("lead_form_submit", {
+      tipo_negocio: values.negocio,
+      interesse: values.interesse,
+    });
     trackEvent("generate_lead", {
       tipo_negocio: values.negocio,
       interesse: values.interesse,
     });
+
     setSent(true);
     openWhatsApp(
       `Olá, K-Libra! Solicitei atendimento comercial pelo site.\n\n` +
